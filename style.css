@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    height: 55px;
+}
+.brand img{
+    width: 45px;
+    padding: 0px 12px;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+
+}
+nav ul li{
+    padding: 0px 12px;
+}
+.container{
+    min-height: 73vh;
+    background-color: black;
+    color: white;
+    margin: 12px auto;
+    width: 85%;
+    border-radius: 12px;
+    padding: 0px 12px;
+    display: flex;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 90vw;
+    background-size: 123vh;
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+.bottom{
+    background-color: black;
+    position: sticky;
+    bottom: 0px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+#progressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons img{
+    color: white;
+    width: 35px;
+    padding: 0px 6px;
+    cursor: pointer;
+}
+.icons{
+    margin: 14px 0px;
+}
+.songItem{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    background-color: rgb(179, 244, 136);
+    color: rgb(0, 0, 0);
+    border-radius: 34px;
+    min-width: 40vw;
+    min-height: 7vh;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    margin: 23px 45px;
+
+
+}
+.songItem img{
+       height: 40px;
+       border-radius: 21px;
+}
+.spanimg img{
+    height: 30px;
+    cursor: pointer;
+
+
+}
+.songInfo img{
+    height: 20px;
+    opacity: 0;
+    transition: 0.2s ease-in;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+
+
+
